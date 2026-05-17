@@ -62,11 +62,13 @@ Navegador metódico para codebases desconhecidos. Investiga antes de agir, execu
 
 **Comandos em PT-BR:**
 ```
-explore o código
+explorar codebase
+navegar código
+investigar [módulo/área]
+entender estrutura de [X]
 como funciona [módulo/fluxo]?
 investigue esse fluxo
-corrija isso
-auxilie com esse código
+mapear dependências
 ```
 
 ---

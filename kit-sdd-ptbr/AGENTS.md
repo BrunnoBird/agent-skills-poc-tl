@@ -47,20 +47,22 @@ desafie minha ideia        → stress-test antes de commitar em um design
 <!-- ← EDITE: substitua pelos comandos reais do projeto -->
 
 ```bash
-# Instalar dependências
-npm install
+# ── Descomente e adapte o bloco do seu stack ──────────────────────────
 
-# Build
-npm run build
+# Node.js / TypeScript
+# npm install && npm run build && npm test && npm run lint
 
-# Testes unitários
-npm test
+# Python / pytest
+# pip install -r requirements.txt && pytest && flake8 src/
 
-# Testes completos (unitários + integração)
-npm run test:all
+# Java / Maven
+# mvn clean install && mvn test && mvn checkstyle:check
 
-# Lint
-npm run lint
+# Java / Gradle
+# ./gradlew build test checkstyleMain
+
+# .NET / C#
+# dotnet restore && dotnet build && dotnet test
 ```
 
 ---

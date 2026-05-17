@@ -144,6 +144,8 @@ Pergunta: "Descobri algo durante esta missão que custaria tempo para redescobri
 - A informação já existe na própria documentação do projeto
 - A nota seria uma cópia do que já está no código
 
+**O que é `.notebook/`:** Uma base de conhecimento local do projeto — arquivos markdown telegráficos que registram o que você aprendeu (fluxos, armadilhas, padrões, termos de domínio). O agente lê o `INDEX.md` no início de cada missão para partir do conhecimento acumulado, não do zero. Ela cresce organicamente conforme o projeto evolui.
+
 Para a especificação do formato `.notebook/`, leia `referencias/spec-caderno.md`.
 
 Output esperado: `.notebook/` atualizado com nova inteligência, ou decisão explícita de que nada relevante foi descoberto.

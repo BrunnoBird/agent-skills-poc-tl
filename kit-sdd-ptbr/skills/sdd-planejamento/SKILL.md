@@ -133,7 +133,8 @@ Use sub-agentes (Task tool ou equivalente) para manter o contexto principal enxu
 
 O agente orquestrador DEVE fornecer a cada sub-agente:
 - A definição específica da tarefa do tasks.md
-- Princípios de código e convenções relevantes (principios-codigo.md, CONVENTIONS.md)
+- Princípios de código do kit (`referencias/principios-codigo.md`)
+- Convenções do projeto (`.specs/codebase/CONVENTIONS.md`), se já gerado via mapeamento brownfield
 - TESTING.md, se existir
 - Qualquer contexto de spec/design que a tarefa referencia
 
@@ -177,9 +178,9 @@ O agente orquestrador usa isso para atualizar o status do tasks.md, rastreabilid
 
 Este skill coexiste com outros skills. Antes de tarefas específicas, verifique se skills complementares estão instalados e prefira-os quando disponíveis.
 
-### Diagramas → mermaid-studio
+### Diagramas
 
-Sempre que o fluxo de trabalho exigir criar ou atualizar um diagrama, **sempre** verifique se o skill `mermaid-studio` está instalado. Se estiver, delegue toda criação e renderização de diagramas a ele. Se não estiver, use blocos de código mermaid inline e recomende a instalação (uma vez por sessão).
+Use blocos de código mermaid inline sempre que um diagrama ajudar a comunicar arquitetura ou fluxo. Não é necessário nenhum skill externo — o agente gera os blocos `mermaid` diretamente no documento.
 
 ### Exploração de Código → navegador-codebase
 

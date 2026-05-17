@@ -26,7 +26,7 @@ Bons gatilhos para pesquisa: novas bibliotecas, APIs desconhecidas, features de 
 
 ### 2. Definir Arquitetura
 
-Visão geral de como os componentes interagem. Use diagramas mermaid quando útil. Antes de criar diagramas, verifique se o skill `mermaid-studio` está disponível.
+Visão geral de como os componentes interagem. Use diagramas mermaid inline quando útil — inclua blocos `mermaid` diretamente no documento de design.
 
 ### 3. Identificar Reuso de Código
 
